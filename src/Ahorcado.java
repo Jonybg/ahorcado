@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class App {
+public class Ahorcado {
     public static void main(String[] args) throws Exception {
         
         int intentosMaximos = 10;
         int intentos = 0;
-        String palabraSecreta = "skere";
+        String palabraSecreta = "inteligencia";
         boolean isAdivined = false;
         Scanner teclado = new Scanner(System.in);
         char[] letras = new char[palabraSecreta.length()];
@@ -28,7 +28,7 @@ public class App {
                 }
             }
        
-
+      
             if(!letraCorrecta){
                 intentos++;
                 System.out.println("letra incorrecta te quedan " + (intentosMaximos - intentos) + " intentos");
