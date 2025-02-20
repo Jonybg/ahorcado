@@ -5,7 +5,7 @@ public class Ahorcado {
         
         int intentosMaximos = 10;
         int intentos = 0;
-        String palabraSecreta = "inteligencia";
+        String palabraSecreta = "computadora";
         boolean isAdivined = false;
         Scanner teclado = new Scanner(System.in);
         char[] letras = new char[palabraSecreta.length()];
